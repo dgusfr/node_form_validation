@@ -9,3 +9,5 @@ npm install ejs --save
 npm install express-flash --save
 
 npm install nodemon -g
+
+npm install cookie-parser
