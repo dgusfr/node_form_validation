@@ -5,7 +5,7 @@ var flash = require("connect-flash");
 var app = express();
 
 app.get("/", function (req, res) {
-  res.send("Hello World");
+  res.render("index.ejs");
 });
 
 app.use(bodyParser.urlencoded({ extended: false }));
