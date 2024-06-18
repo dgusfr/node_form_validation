@@ -4,6 +4,7 @@ var session = require("express-session");
 var flash = require("express-flash");
 var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
+var validator = require("validator");
 
 app.set("view engine", "ejs");
 
@@ -13,6 +14,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
+// cookie-parser é um middleware usado para analisar os cookies anexados, implementando autenticação, gerenciamento de sessões
 app.use(cookieParser("jsaddsh"));
 app.use(
   session({
@@ -31,10 +33,20 @@ app.get("/", (req, res) => {
   var nomeError = req.flash("nomeError");
   var email = req.flash("email");
 
-  emailError =
-    emailError == undefined || emailError.length == 0 ? undefined : emailError;
-  email = email == undefined || email.length == 0 ? "" : email;
+  //requisição flash no emailError
+  if (emailError == undefined || emailError.length == 0) {
+    emailError = undefined;
+  } else {
+    emailError = emailError;
+  }
 
+  if (email == undefined || email.length == 0) {
+    email = "";
+  } else {
+    email = email;
+  }
+
+  //retorna o email informado no campo em questão
   res.render("index", { emailError, pontosError, nomeError, email: email });
 });
 
@@ -45,8 +57,14 @@ app.post("/form", (req, res) => {
   var pontosError;
   var nomeError;
 
-  if (email == undefined || email == "") {
-    emailError = "O e-mail não pode ser vazio";
+  //Sem o validator:
+  //   if (email == undefined || email == "") {
+  //     emailError = "O e-mail não pode ser vazio";
+  //   }
+
+  //Com a biblioteca validator:
+  if (!validator.isEmail(email)) {
+    emailError = "E-mail inválido";
   }
 
   if (pontos == undefined || pontos < 20) {
