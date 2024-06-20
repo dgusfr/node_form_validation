@@ -1,15 +1,77 @@
-npm install express --save
+# Validação em Formularios
 
-npm install body-parser --save
+Este projeto implementa validações do input de um formulario do lado do Back-end
 
-npm install express-session --save
+<div align="center">
+  <img src="img/logo.png" alt="Imagem do Projeto" width="600">
+</div>
 
-npm install ejs --save
+## Sumário
 
-npm install express-flash --save
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Status](#status)
+- [Funcionalidades](#funcionalidades)
+- [Explicação](#explicação)
+- [Como Usar](#como-usar)
+- [Autor](#autor)
 
-npm install nodemon -g
+## Tecnologias Utilizadas
 
-npm install cookie-parser
+<div style="display: flex; flex-direction: row;">
+  <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
+    <img src="img/js.png" alt="Logo Linguagem" width="100"/>
+  </div>
+  <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
+    <img src="img/node.png" alt="Logo Linguagem" width="100"/>
+  </div>
+</div>
 
-npm install validator
+## Status
+
+![Concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
+
+## Funcionalidades
+
+Este projeto valida as entradas e=de nome, email e senha em um formulário.
+
+## Explicação
+
+Temos a opção de fazer a validção com condicional:
+
+```
+ if (email == undefined || email == "") {
+   emailError = "O e-mail não pode ser vazio";
+  }
+```
+
+Ou utilizando a bibilioteca `validator`:
+
+```
+  if (!validator.isEmail(email)) {
+    emailError = "E-mail inválido";
+  }
+```
+
+## Como Usar
+
+1. git clone `https://github.com/dgusfr/validation_Form_NodeJS`
+
+2. npm install express --save
+
+3. npm install body-parser --save
+
+4. npm install express-session --save
+
+5. npm install ejs --save
+
+6. npm install express-flash --save
+
+7. npm install nodemon -g
+
+8. npm install cookie-parser
+
+9. npm install validator
+
+## Autor
+
+Desenvolvido por Diego Franco
