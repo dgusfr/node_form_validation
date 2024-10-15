@@ -1,6 +1,6 @@
 # Validação em Formularios
 
-Este projeto implementa validações do input de um formulario do lado do Back-end
+Este projeto implementa validações do input de um formulario do lado do Back-end com Node JS.
 
 <div align="center">
   <img src="img/logo.png" alt="Imagem do Projeto" width="600">
