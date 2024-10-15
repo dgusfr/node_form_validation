@@ -32,7 +32,7 @@ Este projeto implementa validações do input de um formulario do lado do Back-e
 
 ## Funcionalidades
 
-Este projeto valida as entradas e=de nome, email e senha em um formulário.
+Este projeto valida as entradas dos campos nome, email e senha em um formulário.
 
 ## Explicação
 
