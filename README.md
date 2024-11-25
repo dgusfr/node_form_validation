@@ -19,6 +19,8 @@ Este projeto implementa validações do input de um formulario do lado do Back-e
 - [Como Usar](#como-usar)
 - [Autor](#autor)
 
+<br>
+
 ## Tecnologias Utilizadas
 
 <div style="display: flex; flex-direction: row;">
