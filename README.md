@@ -86,6 +86,8 @@ Ou utilizando a bibilioteca `validator`:
 
 9. npm install validator
 
+<br>
+
 ## Autor
 
 Desenvolvido por Diego Franco
