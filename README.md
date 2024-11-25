@@ -55,6 +55,7 @@ Temos a opção de fazer a validção com condicional:
    emailError = "O e-mail não pode ser vazio";
   }
 ```
+<br>
 
 Ou utilizando a bibilioteca `validator`:
 
@@ -63,6 +64,7 @@ Ou utilizando a bibilioteca `validator`:
     emailError = "E-mail inválido";
   }
 ```
+<br>
 
 ## Como Usar
 
