@@ -44,6 +44,8 @@ Este projeto implementa validações do input de um formulario do lado do Back-e
 
 Este projeto valida as entradas dos campos nome, email e senha em um formulário.
 
+<br>
+
 ## Explicação
 
 Temos a opção de fazer a validção com condicional:
