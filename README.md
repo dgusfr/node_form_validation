@@ -8,6 +8,8 @@ Este projeto implementa validações do input de um formulario do lado do Back-e
   <img src="img/logo.png" alt="Imagem do Projeto" width="600">
 </div>
 
+<br>
+
 ## Sumário
 
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
