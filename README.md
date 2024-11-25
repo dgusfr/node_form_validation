@@ -38,6 +38,8 @@ Este projeto implementa validações do input de um formulario do lado do Back-e
 
 ![Concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
 
+<br>
+
 ## Funcionalidades
 
 Este projeto valida as entradas dos campos nome, email e senha em um formulário.
