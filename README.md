@@ -70,8 +70,6 @@ Ou utilizando a bibilioteca `validator`:
 
 1. git clone `https://github.com/dgusfr/validation_Form_NodeJS`
 
-2. npm install express --save
-
 
 
 
