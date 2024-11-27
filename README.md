@@ -74,8 +74,6 @@ Ou utilizando a bibilioteca `validator`:
 
 3. npm install body-parser --save
 
-4. npm install express-session --save
-
 
 
 
