@@ -84,7 +84,6 @@ Ou utilizando a bibilioteca `validator`:
 
 8. npm install cookie-parser
 
-9. npm install validator
 
 <br>
 
