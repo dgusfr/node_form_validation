@@ -78,7 +78,6 @@ Ou utilizando a bibilioteca `validator`:
 
 5. npm install ejs --save
 
-6. npm install express-flash --save
 
 
 
