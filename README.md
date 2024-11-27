@@ -76,7 +76,6 @@ Ou utilizando a bibilioteca `validator`:
 
 4. npm install express-session --save
 
-5. npm install ejs --save
 
 
 
