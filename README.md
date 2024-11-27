@@ -80,7 +80,6 @@ Ou utilizando a bibilioteca `validator`:
 
 6. npm install express-flash --save
 
-7. npm install nodemon -g
 
 
 
