@@ -68,8 +68,6 @@ Ou utilizando a bibilioteca `validator`:
 
 ## Como Usar
 
-1. git clone `https://github.com/dgusfr/validation_Form_NodeJS`
-
 
 
 
