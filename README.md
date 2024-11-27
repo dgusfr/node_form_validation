@@ -82,7 +82,6 @@ Ou utilizando a bibilioteca `validator`:
 
 7. npm install nodemon -g
 
-8. npm install cookie-parser
 
 
 <br>
