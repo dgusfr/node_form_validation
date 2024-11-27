@@ -66,13 +66,6 @@ Ou utilizando a bibilioteca `validator`:
 ```
 <br>
 
-## Como Usar
-
-
-
-
-
-
 <br>
 
 ## Autor
