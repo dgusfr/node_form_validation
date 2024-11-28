@@ -28,7 +28,7 @@ Este projeto implementa validações do input de um formulario do lado do Back-e
     <img src="images/js.png" alt="Logo Linguagem" width="100"/>
   </div>
   <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
-    <img src="img/node.png" alt="Logo Linguagem" width="200"/>
+    <img src="images/node.png" alt="Logo Linguagem" width="200"/>
   </div>
 </div>
 
