@@ -5,7 +5,7 @@ Este projeto implementa validações do input de um formulario do lado do Back-e
 <br>
 
 <div align="center">
-  <img src="img/logo.png" alt="Imagem do Projeto" width="600">
+  <img src="images/logo.png" alt="Imagem do Projeto" width="600">
 </div>
 
 <br>
