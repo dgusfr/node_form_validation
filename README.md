@@ -25,7 +25,7 @@ Este projeto implementa validações do input de um formulario do lado do Back-e
 
 <div style="display: flex; flex-direction: row;">
   <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
-    <img src="img/js.png" alt="Logo Linguagem" width="100"/>
+    <img src="im/js.png" alt="Logo Linguagem" width="100"/>
   </div>
   <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
     <img src="img/node.png" alt="Logo Linguagem" width="200"/>
@@ -55,6 +55,7 @@ Temos a opção de fazer a validção com condicional:
    emailError = "O e-mail não pode ser vazio";
   }
 ```
+
 <br>
 
 Ou utilizando a bibilioteca `validator`:
@@ -64,6 +65,7 @@ Ou utilizando a bibilioteca `validator`:
     emailError = "E-mail inválido";
   }
 ```
+
 <br>
 
 <br>
